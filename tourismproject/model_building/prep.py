@@ -17,8 +17,8 @@ from huggingface_hub import HfApi
 # -----------------------------
 CONFIG = {
     "HF_TOKEN": os.getenv("HF_TOKEN"),
-    "REPO_ID": "muthukumarqq/Tourism-Package-Predict",
-    "DATASET_URL": "hf://datasets/muthukumarqq/Tourism-Package-Predict/tourism.csv",
+    "REPO_ID": "muthukumar22/Tourism-Package-Predict",
+    "DATASET_URL": "hf://datasets/muthukumar22/Tourism-Package-Predict/tourism.csv",
     "TARGET_COL": "ProdTaken",
     "DROP_COLS": ["CustomerID"],
     "TEST_SIZE": 0.2,
