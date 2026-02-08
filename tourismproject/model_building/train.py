@@ -28,8 +28,8 @@ from huggingface_hub.utils import RepositoryNotFoundError
 MLFLOW_TRACKING_URI = "http://localhost:5000"
 EXPERIMENT_NAME = "tourism-package-predict-rf"
 HF_TOKEN = os.getenv("HF_TOKEN")
-HF_DATASET_REPO = "muthukumarqq/Tourism-Package-Predict"
-HF_MODEL_REPO = "muthukumarqq/tourism-package-mod"
+HF_DATASET_REPO = "muthukumar22/Tourism-Package-Predict"
+HF_MODEL_REPO = "muthukumar22/tourism-package-mod"
 
 # -----------------------------
 # Setup MLflow
