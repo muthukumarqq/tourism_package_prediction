@@ -2,7 +2,7 @@ from huggingface_hub import HfApi, create_repo
 from huggingface_hub.utils import RepositoryNotFoundError
 import os
 
-repo_id = "muthukumarqq/Tourism-Package-Predict"
+repo_id = "muthukumar22/Tourism-Package-Predict"
 repo_type = "dataset"
 
 # Correct token usage
