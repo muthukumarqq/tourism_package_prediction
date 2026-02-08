@@ -18,7 +18,7 @@ st.set_page_config(
 @st.cache_resource
 def load_model():
     model_path = hf_hub_download(
-        repo_id="muthukumarqq/tourism-package-mod",
+        repo_id="muthukumar22/tourism-package-mod",
         filename="best_tourism_model_rf.joblib" # Updated to match the RF model name
     )
     return joblib.load(model_path)
